@@ -7,11 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B766C86D2C7FB0B100C5227C /* CalendarCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B766C86C2C7FB0B100C5227C /* CalendarCellView.swift */; };
+		B766C86F2C7FB4FF00C5227C /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B766C86E2C7FB4FF00C5227C /* LoadingView.swift */; };
+		B766C8712C7FB50D00C5227C /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B766C8702C7FB50D00C5227C /* ErrorView.swift */; };
+		B766C8742C7FB59300C5227C /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B766C8732C7FB59300C5227C /* Animal.swift */; };
+		B766C8782C7FB67000C5227C /* AnimalAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B766C8772C7FB67000C5227C /* AnimalAPI.swift */; };
+		B766C87C2C7FB6E000C5227C /* CatlendrViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B766C87B2C7FB6E000C5227C /* CatlendrViewModel.swift */; };
+		B766C88A2C7FCE5A00C5227C /* CalendarDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B766C8892C7FCE5A00C5227C /* CalendarDay.swift */; };
+		B766C88C2C7FD1FB00C5227C /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B766C88B2C7FD1FB00C5227C /* DateExtensions.swift */; };
+		B766C89A2C7FFF7F00C5227C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B766C8992C7FFF7F00C5227C /* Kingfisher */; };
+		B766C89C2C800BA300C5227C /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B766C89B2C800BA300C5227C /* ViewExtensions.swift */; };
+		B77889A82C824EF400B02EFC /* CatlendrViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77889A72C824EF400B02EFC /* CatlendrViewModelTests.swift */; };
 		B7ED92952C7F95B0003FB31E /* CatlendrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ED92942C7F95B0003FB31E /* CatlendrApp.swift */; };
-		B7ED92972C7F95B0003FB31E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ED92962C7F95B0003FB31E /* ContentView.swift */; };
+		B7ED92972C7F95B0003FB31E /* CatlendrView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ED92962C7F95B0003FB31E /* CatlendrView.swift */; };
 		B7ED92992C7F95B3003FB31E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7ED92982C7F95B3003FB31E /* Assets.xcassets */; };
 		B7ED929C2C7F95B3003FB31E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7ED929B2C7F95B3003FB31E /* Preview Assets.xcassets */; };
-		B7ED92A62C7F95B3003FB31E /* CatlendrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ED92A52C7F95B3003FB31E /* CatlendrTests.swift */; };
 		B7ED92B02C7F95B3003FB31E /* CatlendrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ED92AF2C7F95B3003FB31E /* CatlendrUITests.swift */; };
 		B7ED92B22C7F95B3003FB31E /* CatlendrUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ED92B12C7F95B3003FB31E /* CatlendrUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
@@ -34,13 +44,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B766C86C2C7FB0B100C5227C /* CalendarCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCellView.swift; sourceTree = "<group>"; };
+		B766C86E2C7FB4FF00C5227C /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		B766C8702C7FB50D00C5227C /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		B766C8732C7FB59300C5227C /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		B766C8772C7FB67000C5227C /* AnimalAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalAPI.swift; sourceTree = "<group>"; };
+		B766C87B2C7FB6E000C5227C /* CatlendrViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatlendrViewModel.swift; sourceTree = "<group>"; };
+		B766C8892C7FCE5A00C5227C /* CalendarDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDay.swift; sourceTree = "<group>"; };
+		B766C88B2C7FD1FB00C5227C /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		B766C88E2C7FE08B00C5227C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B766C89B2C800BA300C5227C /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		B77889A72C824EF400B02EFC /* CatlendrViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatlendrViewModelTests.swift; sourceTree = "<group>"; };
 		B7ED92912C7F95B0003FB31E /* Catlendr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catlendr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7ED92942C7F95B0003FB31E /* CatlendrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatlendrApp.swift; sourceTree = "<group>"; };
-		B7ED92962C7F95B0003FB31E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B7ED92962C7F95B0003FB31E /* CatlendrView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatlendrView.swift; sourceTree = "<group>"; };
 		B7ED92982C7F95B3003FB31E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7ED929B2C7F95B3003FB31E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B7ED92A12C7F95B3003FB31E /* CatlendrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatlendrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7ED92A52C7F95B3003FB31E /* CatlendrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatlendrTests.swift; sourceTree = "<group>"; };
 		B7ED92AB2C7F95B3003FB31E /* CatlendrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatlendrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7ED92AF2C7F95B3003FB31E /* CatlendrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatlendrUITests.swift; sourceTree = "<group>"; };
 		B7ED92B12C7F95B3003FB31E /* CatlendrUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatlendrUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -51,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B766C89A2C7FFF7F00C5227C /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +92,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B766C8642C7FAF3100C5227C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B766C8722C7FB53B00C5227C /* Models */,
+				B766C8672C7FAF4E00C5227C /* Networking */,
+				B766C8682C7FAF5600C5227C /* Utilities */,
+				B766C8662C7FAF4200C5227C /* ViewModels */,
+				B766C8652C7FAF3A00C5227C /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B766C8652C7FAF3A00C5227C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B766C86B2C7FB08600C5227C /* Common */,
+				B766C86A2C7FB07000C5227C /* CatlendrView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B766C8662C7FAF4200C5227C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B766C87B2C7FB6E000C5227C /* CatlendrViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B766C8672C7FAF4E00C5227C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B766C8772C7FB67000C5227C /* AnimalAPI.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B766C8682C7FAF5600C5227C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B766C88B2C7FD1FB00C5227C /* DateExtensions.swift */,
+				B766C89B2C800BA300C5227C /* ViewExtensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B766C86A2C7FB07000C5227C /* CatlendrView */ = {
+			isa = PBXGroup;
+			children = (
+				B766C86C2C7FB0B100C5227C /* CalendarCellView.swift */,
+				B7ED92962C7F95B0003FB31E /* CatlendrView.swift */,
+			);
+			path = CatlendrView;
+			sourceTree = "<group>";
+		};
+		B766C86B2C7FB08600C5227C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B766C8702C7FB50D00C5227C /* ErrorView.swift */,
+				B766C86E2C7FB4FF00C5227C /* LoadingView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B766C8722C7FB53B00C5227C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B766C8732C7FB59300C5227C /* Animal.swift */,
+				B766C8892C7FCE5A00C5227C /* CalendarDay.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		B7ED92882C7F95B0003FB31E = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +188,11 @@
 		B7ED92932C7F95B0003FB31E /* Catlendr */ = {
 			isa = PBXGroup;
 			children = (
-				B7ED92942C7F95B0003FB31E /* CatlendrApp.swift */,
-				B7ED92962C7F95B0003FB31E /* ContentView.swift */,
+				B766C88E2C7FE08B00C5227C /* Info.plist */,
 				B7ED92982C7F95B3003FB31E /* Assets.xcassets */,
+				B7ED92942C7F95B0003FB31E /* CatlendrApp.swift */,
 				B7ED929A2C7F95B3003FB31E /* Preview Content */,
+				B766C8642C7FAF3100C5227C /* Sources */,
 			);
 			path = Catlendr;
 			sourceTree = "<group>";
@@ -113,7 +208,7 @@
 		B7ED92A42C7F95B3003FB31E /* CatlendrTests */ = {
 			isa = PBXGroup;
 			children = (
-				B7ED92A52C7F95B3003FB31E /* CatlendrTests.swift */,
+				B77889A72C824EF400B02EFC /* CatlendrViewModelTests.swift */,
 			);
 			path = CatlendrTests;
 			sourceTree = "<group>";
@@ -143,6 +238,9 @@
 			dependencies = (
 			);
 			name = Catlendr;
+			packageProductDependencies = (
+				B766C8992C7FFF7F00C5227C /* Kingfisher */,
+			);
 			productName = Catlendr;
 			productReference = B7ED92912C7F95B0003FB31E /* Catlendr.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +313,9 @@
 				Base,
 			);
 			mainGroup = B7ED92882C7F95B0003FB31E;
+			packageReferences = (
+				B766C8982C7FFF7F00C5227C /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = B7ED92922C7F95B0003FB31E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +358,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7ED92972C7F95B0003FB31E /* ContentView.swift in Sources */,
+				B766C8712C7FB50D00C5227C /* ErrorView.swift in Sources */,
+				B766C87C2C7FB6E000C5227C /* CatlendrViewModel.swift in Sources */,
+				B766C86D2C7FB0B100C5227C /* CalendarCellView.swift in Sources */,
+				B766C8782C7FB67000C5227C /* AnimalAPI.swift in Sources */,
+				B766C86F2C7FB4FF00C5227C /* LoadingView.swift in Sources */,
+				B7ED92972C7F95B0003FB31E /* CatlendrView.swift in Sources */,
+				B766C88C2C7FD1FB00C5227C /* DateExtensions.swift in Sources */,
 				B7ED92952C7F95B0003FB31E /* CatlendrApp.swift in Sources */,
+				B766C88A2C7FCE5A00C5227C /* CalendarDay.swift in Sources */,
+				B766C89C2C800BA300C5227C /* ViewExtensions.swift in Sources */,
+				B766C8742C7FB59300C5227C /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +376,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7ED92A62C7F95B3003FB31E /* CatlendrTests.swift in Sources */,
+				B77889A82C824EF400B02EFC /* CatlendrViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +535,7 @@
 				DEVELOPMENT_TEAM = 7BB6LN9A74;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Catlendr/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +565,7 @@
 				DEVELOPMENT_TEAM = 7BB6LN9A74;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Catlendr/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -588,6 +700,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B766C8982C7FFF7F00C5227C /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B766C8992C7FFF7F00C5227C /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B766C8982C7FFF7F00C5227C /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B7ED92892C7F95B0003FB31E /* Project object */;
 }
