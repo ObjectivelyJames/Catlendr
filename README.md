@@ -27,4 +27,4 @@ Catlendr is a modern iOS app that displays a seven-day calendar with pictures of
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/Catlendr.git
+   git clone https://github.com/ObjectivelyJames/Catlendr.git
